@@ -1,0 +1,75 @@
+{
+    "window.zoomLevel": 1,
+    "editor.mouseWheelZoom": true,
+    "files.autoSave": "afterDelay",
+    "window.menuBarVisibility": "toggle",
+    "workbench.layoutControl.enabled": false,
+    "window.titleBarStyle": "native",
+    "window.titleSeparator": " | ",
+    "editor.renderWhitespace": "trailing",
+
+    // theme styling
+    "workbench.colorTheme": "One Dark Pro Darker",
+    "workbench.iconTheme": "material-icon-theme",
+
+    // control the font
+    "editor.fontFamily": "Jetbrains Mono, monospace",
+    "editor.fontSize": 12.75,
+    "editor.lineHeight": 30,
+    "editor.fontLigatures": true,
+    "editor.wordWrap": "on",
+
+    // token customization
+    "editor.tokenColorCustomizations": {
+		"textMateRules": [
+			{
+				"scope": "comment",
+				"settings": {
+					"fontStyle": "italic"
+				}
+			}
+		]
+	},
+
+    // terminal customization
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
+    "terminal.integrated.fontFamily": "'JetBrainsMono Nerd Font Mono'",
+
+    // cursor
+	"editor.cursorSmoothCaretAnimation": "explicit",
+    "editor.cursorBlinking": "expand",
+
+
+    // indent rainbow
+    "indentRainbow.indicatorStyle": "light",
+
+    // code formatter
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "[css]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[scss]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[php]": {
+        "editor.defaultFormatter": "DEVSENSE.phptools-vscode"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[vue]": {
+        "editor.defaultFormatter": "Vue.volar"
+    },
+    "explorer.confirmDelete": false,
+    "workbench.startupEditor": "none",
+}
+
+/*
+favourite theme:
+    => one dark pro
+*/
