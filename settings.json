@@ -1,5 +1,5 @@
 {
-    "window.zoomLevel": 1,
+    "window.zoomLevel": 1.25,
     "editor.mouseWheelZoom": true,
     "files.autoSave": "afterDelay",
     "window.menuBarVisibility": "toggle",
@@ -7,10 +7,10 @@
     "window.titleBarStyle": "native",
     "window.titleSeparator": " | ",
     "editor.renderWhitespace": "trailing",
-
-    // theme styling
-    "workbench.colorTheme": "One Dark Pro Darker",
     "workbench.iconTheme": "material-icon-theme",
+    "workbench.tree.renderIndentGuides": "always",
+    "workbench.tree.indent": 16,
+
 
     // control the font
     "editor.fontFamily": "Jetbrains Mono, monospace",
@@ -31,13 +31,41 @@
 		]
 	},
 
+    // color customization
+    "workbench.colorCustomizations": {
+        // editor
+        "sideBarSectionHeader.background": "#1E2227", // ( for one dark darker theme )
+        
+        // terminal
+        "terminal.background":"#161B1D",
+        "terminal.foreground":"#7EA2B4",
+        "terminalCursor.background":"#7EA2B4",
+        "terminalCursor.foreground":"#7EA2B4",
+        "terminal.ansiBlack":"#161B1D",
+        "terminal.ansiBlue":"#257FAD",
+        "terminal.ansiBrightBlack":"#5A7B8C",
+        "terminal.ansiBrightBlue":"#257FAD",
+        "terminal.ansiBrightCyan":"#2D8F6F",
+        "terminal.ansiBrightGreen":"#568C3B",
+        "terminal.ansiBrightMagenta":"#6B6BB8",
+        "terminal.ansiBrightRed":"#D22D72",
+        "terminal.ansiBrightWhite":"#EBF8FF",
+        "terminal.ansiBrightYellow":"#8A8A0F",
+        "terminal.ansiCyan":"#2D8F6F",
+        "terminal.ansiGreen":"#568C3B",
+        "terminal.ansiMagenta":"#6B6BB8",
+        "terminal.ansiRed":"#D22D72",
+        "terminal.ansiWhite":"#7EA2B4",
+        "terminal.ansiYellow":"#8A8A0F"
+    },
+
     // terminal customization
     "terminal.integrated.defaultProfile.windows": "Git Bash",
     "terminal.integrated.fontFamily": "'JetBrainsMono Nerd Font Mono'",
 
     // cursor
-	"editor.cursorSmoothCaretAnimation": "explicit",
-    "editor.cursorBlinking": "expand",
+	"editor.cursorSmoothCaretAnimation": "on",
+    "editor.cursorBlinking": "phase",
 
 
     // indent rainbow
@@ -65,11 +93,10 @@
     "[vue]": {
         "editor.defaultFormatter": "Vue.volar"
     },
+    
     "explorer.confirmDelete": false,
     "workbench.startupEditor": "none",
+    "phpParameterHint.hintTypeName": 1,
+    "workbench.colorTheme": "One Dark Pro Darker",
+    "material-icon-theme.hidesExplorerArrows": true,
 }
-
-/*
-favourite theme:
-    => one dark pro
-*/
