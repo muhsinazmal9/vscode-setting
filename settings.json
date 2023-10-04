@@ -1,5 +1,5 @@
 {
-    "window.zoomLevel": 1.25,
+    "window.zoomLevel": 1.2,
     "editor.mouseWheelZoom": true,
     "files.autoSave": "afterDelay",
     "window.menuBarVisibility": "toggle",
@@ -10,7 +10,6 @@
     "workbench.iconTheme": "material-icon-theme",
     "workbench.tree.renderIndentGuides": "always",
     "workbench.tree.indent": 16,
-
 
     // control the font
     "editor.fontFamily": "Jetbrains Mono, monospace",
@@ -32,31 +31,29 @@
 	},
 
     // color customization
+    "workbench.colorTheme": "One Dark Darker",
     "workbench.colorCustomizations": {
-        // editor
-        "sideBarSectionHeader.background": "#1E2227", // ( for one dark darker theme )
-        
         // terminal
-        "terminal.background":"#161B1D",
-        "terminal.foreground":"#7EA2B4",
-        "terminalCursor.background":"#7EA2B4",
-        "terminalCursor.foreground":"#7EA2B4",
-        "terminal.ansiBlack":"#161B1D",
-        "terminal.ansiBlue":"#257FAD",
-        "terminal.ansiBrightBlack":"#5A7B8C",
-        "terminal.ansiBrightBlue":"#257FAD",
-        "terminal.ansiBrightCyan":"#2D8F6F",
-        "terminal.ansiBrightGreen":"#568C3B",
-        "terminal.ansiBrightMagenta":"#6B6BB8",
-        "terminal.ansiBrightRed":"#D22D72",
-        "terminal.ansiBrightWhite":"#EBF8FF",
-        "terminal.ansiBrightYellow":"#8A8A0F",
-        "terminal.ansiCyan":"#2D8F6F",
-        "terminal.ansiGreen":"#568C3B",
-        "terminal.ansiMagenta":"#6B6BB8",
-        "terminal.ansiRed":"#D22D72",
-        "terminal.ansiWhite":"#7EA2B4",
-        "terminal.ansiYellow":"#8A8A0F"
+        "terminal.background":"#0C0D0E",
+        "terminal.foreground":"#B7B8B9",
+        "terminalCursor.background":"#B7B8B9",
+        "terminalCursor.foreground":"#B7B8B9",
+        "terminal.ansiBlack":"#0C0D0E",
+        "terminal.ansiBlue":"#3182BD",
+        "terminal.ansiBrightBlack":"#737475",
+        "terminal.ansiBrightBlue":"#3182BD",
+        "terminal.ansiBrightCyan":"#80B1D3",
+        "terminal.ansiBrightGreen":"#31A354",
+        "terminal.ansiBrightMagenta":"#756BB1",
+        "terminal.ansiBrightRed":"#E31A1C",
+        "terminal.ansiBrightWhite":"#FCFDFE",
+        "terminal.ansiBrightYellow":"#DCA060",
+        "terminal.ansiCyan":"#80B1D3",
+        "terminal.ansiGreen":"#31A354",
+        "terminal.ansiMagenta":"#756BB1",
+        "terminal.ansiRed":"#E31A1C",
+        "terminal.ansiWhite":"#B7B8B9",
+        "terminal.ansiYellow":"#DCA060"
     },
 
     // terminal customization
@@ -93,10 +90,8 @@
     "[vue]": {
         "editor.defaultFormatter": "Vue.volar"
     },
-    
+
     "explorer.confirmDelete": false,
     "workbench.startupEditor": "none",
-    "phpParameterHint.hintTypeName": 1,
-    "workbench.colorTheme": "One Dark Pro Darker",
     "material-icon-theme.hidesExplorerArrows": true,
 }
