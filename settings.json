@@ -1,5 +1,5 @@
 {
-    "window.zoomLevel": 1.2,
+
     "editor.mouseWheelZoom": true,
     "files.autoSave": "afterDelay",
     "window.menuBarVisibility": "toggle",
@@ -33,6 +33,11 @@
     // color customization
     "workbench.colorTheme": "One Dark Darker",
     "workbench.colorCustomizations": {
+        "activityBar.border": "#d7dae027",
+        "sideBar.border": "#d7dae027",
+        "statusBar.border": "#d7dae027",
+        "sash.hoverBorder": "#000000",
+        "tab.activeBorder": "#fbffe77f",
         // terminal
         "terminal.background":"#0C0D0E",
         "terminal.foreground":"#B7B8B9",
@@ -94,4 +99,14 @@
     "explorer.confirmDelete": false,
     "workbench.startupEditor": "none",
     "material-icon-theme.hidesExplorerArrows": true,
+    "cSpell.userWords": [
+        "laravel",
+        "Muhsin",
+        "splade"
+    ],
+    "git.autofetch": true,
+    "tabnine.experimentalAutoImports": true,
+    "window.zoomLevel": 1.2,
+    "prettier.printWidth": 120,
+    "prettier.proseWrap": "never",
 }
